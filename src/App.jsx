@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
-import TaskBoard from "./TaskBoard";
-import TaskForm from "./TaskForm";
+import TaskBoard from "./components/TaskBoard";
+import TaskForm from "./components/TaskForm";
 import Task from "./components/Task";
 
 let taskCount = 1;
